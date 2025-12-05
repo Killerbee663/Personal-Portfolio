@@ -35,7 +35,7 @@ export const NavBar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">MHD Tarek</span> Tawila
+            <span className="text-glow text-foreground">Tarek</span> Tawila
           </span>
         </a>
         <div className="hidden md:flex space-x-8">
