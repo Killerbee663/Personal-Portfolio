@@ -16,7 +16,7 @@ export const ContactSection = () => {
   const SERVICE_ID = "service_nowg2qp";
   const TEMPLATE_ID = "template_60dd3e8";
   const PUBLIC_KEY = "Xcv8UDca3Kl2XK9Ls";
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
     setIsSubmitting(true);
 
@@ -49,7 +49,9 @@ export const ContactSection = () => {
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Get In <span className="text-primary">Touch</span>
+          <span className="inline-block px-4 py-2 rounded-4xl">
+            Get In <span className="text-primary">Touch</span>
+          </span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Have a project in mind or want to collaborate? Feel free to reach out.
@@ -133,7 +135,7 @@ export const ContactSection = () => {
                   value={formData.name}
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="Enter Your Name"
-                  onChange={(e) =>
+                  onChange={e =>
                     setFormData({ ...formData, name: e.target.value })
                   }
                 />
@@ -153,7 +155,7 @@ export const ContactSection = () => {
                   value={formData.email}
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="Enter Your Email"
-                  onChange={(e) =>
+                  onChange={e =>
                     setFormData({ ...formData, email: e.target.value })
                   }
                 />
@@ -172,7 +174,7 @@ export const ContactSection = () => {
                   value={formData.message}
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary resize-none"
                   placeholder="Hello, ..."
-                  onChange={(e) =>
+                  onChange={e =>
                     setFormData({ ...formData, message: e.target.value })
                   }
                 />
