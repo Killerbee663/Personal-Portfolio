@@ -20,7 +20,7 @@ const projects = [
       "CSRF Protection",
       "SendGrid"
     ],
-    demoURL: "https://paperlight.onrender.com/",
+    demoURL: "",
     githubURL: "https://github.com/Killerbee663/PaperLight",
   },
   {
