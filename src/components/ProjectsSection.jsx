@@ -30,7 +30,7 @@ const projects = [
     a Kuwait-based luxury oud and perfume retailer. A custom-built platform with full ownership, no subscription fees, and deep integration
      with Kuwait-local payment and delivery services.`,
      image: "/projects/Al Bahar Perfumes.png",
-     tages:[
+     tags:[
       "React 18",
       "TypeScript",
       "Vite",
