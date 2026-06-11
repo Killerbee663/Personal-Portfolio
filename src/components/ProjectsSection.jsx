@@ -47,7 +47,7 @@ const projects = [
      ],
      demoURL: "https://albaharperfumes.com",
      githubURL: "https://github.com/Killerbee663/Albahar-Perfumes-Ecommerce"
-  }
+  },
   {
     id: 3,
     title: "Coffee Radio",
