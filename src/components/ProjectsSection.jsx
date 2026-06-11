@@ -25,6 +25,31 @@ const projects = [
   },
   {
     id: 2,
+    title: "Al Bahar Perfumes — E-Commerce Platform",
+    description: `A full-stack, bilingual (Arabic/English) e-commerce store built for [Al Bahar Perfumes](https://albaharperfumes.com), 
+    a Kuwait-based luxury oud and perfume retailer. A custom-built platform with full ownership, no subscription fees, and deep integration
+     with Kuwait-local payment and delivery services.`,
+     image: "/projects/Al Bahar Perfumes.png",
+     tages:[
+      "React 18",
+      "TypeScript",
+      "Vite",
+      "TailwindCSS",
+      "LinguiJS (AR/EN i18n)",
+      "Node.js",
+      "Express",
+      "SQLite",
+      "Cloudflare",
+      "Docker",
+      "VPS",
+      "Ubuntu 24.04",
+      "Nginx"
+     ],
+     demoURL: "https://albaharperfumes.com",
+     githubURL: "https://github.com/Killerbee663/Albahar-Perfumes-Ecommerce"
+  }
+  {
+    id: 3,
     title: "Coffee Radio",
     description:
       "A full-stack web application that combines coffee dataset analysis, AI-powered chat assistance, and genre-based music streaming for the ultimate coffee enthusiast experience.",
@@ -44,7 +69,7 @@ const projects = [
     githubURL: "https://github.com/Killerbee663/Coffee-Radio/tree/main",
   },
   {
-    id: 3,
+    id: 4,
     title: "Findagrave Cemetery Scraper",
     description:
       "A Python web scraper that extracts memorial data from Find A Grave cemetery pages. It collects names, birth and death dates, veteran status, and grave locations, and exports the results to a CSV file.",
@@ -54,7 +79,7 @@ const projects = [
     githubURL: "https://github.com/Killerbee663/findagrave-cemetery-scraper",
   },
   {
-    id: 4,
+    id: 5,
     title: "Rock Paper Scissors Game",
     description:
       "A fun and interactive web-based Rock Paper Scissors game where you play against a JavaScript-powered opponent. Choose your weapon, watch your opponent make their move, and see who wins!",
@@ -64,7 +89,7 @@ const projects = [
     githubURL: "https://github.com/Killerbee663/rock-paper-scissors",
   },
   {
-    id: 5,
+    id: 6,
     title: "Alien Invasion - A JavaScript Space Shooter",
     description:
       "Alien Invasion, a retro-style space shooter game built entirely with vanilla JavaScript and HTML5 Canvas. Blast aliens, dodge their descent, and climb the scoreboards!",
@@ -74,7 +99,7 @@ const projects = [
     githubURL: "https://github.com/Killerbee663/mySpaceInvaders",
   },
   {
-    id: 6,
+    id: 7,
     title: "Jammming – Spotify Playlist Creator",
     description:
       "Jammming is a React web app that allows users to search for songs using Spotify’s Web API and create custom playlists which can be saved directly to their Spotify account.(for trying the livedemo pls open it in incognito broswer window and use these credentials for spotify account{useername: cwdmwhqtchaxtsfhhl@fxavaj.com password: CaTzJmCs2m#v})",
@@ -84,7 +109,7 @@ const projects = [
     githubURL: "https://github.com/Killerbee663/Jamming-Spotify-API",
   },
   {
-    id: 7,
+    id: 8,
     title: "Shopping Cart Web App",
     description:
       "A modern shopping cart web application built with React, React Bootstrap, and React Router.",
