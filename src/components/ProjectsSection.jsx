@@ -20,7 +20,7 @@ const projects = [
       "Playwright",
     ],
     demoURL: "https://www.ksaambassadors.com/",
-    githubURL: "",
+    githubURL: "#",
   },
   {
     id: 2,
