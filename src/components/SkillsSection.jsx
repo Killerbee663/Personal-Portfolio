@@ -22,8 +22,8 @@ export const SkillsSection = () => {
               </span>{" "}
               to create responsive and intuitive user interfaces. On the
               backend, I rely on{" "}
-              <span className="text-primary font-semibold">Python</span> and{" "}
-              <span className="text-primary font-semibold">Flask</span> for
+              <span className="text-primary font-semibold">Node.js</span> and{" "}
+              <span className="text-primary font-semibold">Next.js</span> for
               architecting REST APIs and managing data efficiently in SQL
               databases. Every project is a chance to solve a new challenge,
               manage my workflow through{" "}

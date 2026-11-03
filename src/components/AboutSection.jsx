@@ -14,7 +14,7 @@ export const AboutSection = () => {
             <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
             <p className="text-muted-foreground">
               As a self-taught developer, I’ve spent the past 2 years honing my
-              skills in JavaScript, React, and Python, with a strong focus on
+              skills in JavaScript, React/Next.js, and Python, with a strong focus on
               building responsive and accessible web applications.
             </p>
             <p className="text-muted-foreground">
@@ -29,8 +29,8 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="/cv/Tarek_Tawila_CV.pdf"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 pointer-events-none"
+                href="/cv/Tarek_Tawila_CV_Full_Stack_Developer.pdf"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                 target="_blank"
               >
                 Download CV
